@@ -95,4 +95,10 @@ button:hover {
 p a {
   color: var(--primary);
   text-decoration: underline;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --primary: #f1c40f;
+  --bg-gradient: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
 }
